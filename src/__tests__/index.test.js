@@ -1,7 +1,7 @@
 const add = require("../index.js")
 
 describe("test", () => {
-  it("purposefully fails", () => {
-    expect(add(1, 2)).toEqual(0)
+  it("checking success", () => {
+    expect(add(1, 2)).toEqual(3)
   })
 })
